@@ -2,8 +2,10 @@
 secrets.yaml
 .env
 
-# ESPHome build output
+# ESPHome build output & local pre-compiled binaries
 .esphome/
+bin/
+*.bin
 
 # Python & Virtual Environments
 __pycache__/
