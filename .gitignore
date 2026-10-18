@@ -1,0 +1,24 @@
+# Secrets and private config
+secrets.yaml
+.env
+
+# ESPHome build output
+.esphome/
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv*/
+
+# Logs
+*.log
+dashboard.log
+
+# System files
+.DS_Store
+Thumbs.db

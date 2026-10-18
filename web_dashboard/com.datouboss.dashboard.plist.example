@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.datouboss.dashboard</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/path/to/ESP32-JKBMS-Growatt-CAN-Bridge-Emulator/web_dashboard/server.py</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/path/to/ESP32-JKBMS-Growatt-CAN-Bridge-Emulator</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/path/to/ESP32-JKBMS-Growatt-CAN-Bridge-Emulator/web_dashboard/dashboard.log</string>
+    <key>StandardErrorPath</key>
+    <string>/path/to/ESP32-JKBMS-Growatt-CAN-Bridge-Emulator/web_dashboard/dashboard.log</string>
+</dict>
+</plist>
